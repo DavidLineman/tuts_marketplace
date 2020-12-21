@@ -10,7 +10,9 @@ h1 {
 .navbar {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
-  box-shadow: 0px 1px 3px #2a2a2a;
+  box-shadow: 0px 3px 3px #2a2a2a;
+  background: image_url('what-the-hex.png');
+  padding: 50px;
 }
 
 .navbar-inverse a.navbar-brand {
@@ -20,5 +22,8 @@ h1 {
 }
 
 .container {
+  margin: 30px;
   padding: 20px;
+  border: 1px solid red;
+  font-weight: 100px;
 }
